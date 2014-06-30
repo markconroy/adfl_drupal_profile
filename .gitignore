@@ -6,4 +6,13 @@ sites/*/files
 sites/*/private
 
 # Ignore Libraries folder
-libraries/*
+libraries/ckeditor/
+libraries/ckeditor/*
+libraries/colorbox/
+libraries/colorbox/*
+libraries/flexslider/
+libraries/flexslider/*
+
+# Ignore Temporary folder
+.tmp/
+.tmp/*
