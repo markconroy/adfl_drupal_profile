@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Views - Image Galleries feature.
+ */
+
+include_once 'adfl_views_image_galleries.features.inc';

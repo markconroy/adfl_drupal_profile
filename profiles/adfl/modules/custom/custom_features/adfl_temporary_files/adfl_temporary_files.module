@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the ADFL Temporary Files feature.
+ */
+
+include_once 'adfl_temporary_files.features.inc';

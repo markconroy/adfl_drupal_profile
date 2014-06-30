@@ -1,0 +1,9 @@
+name = CKEditor - Advanced
+description = A feature to create the Advanced (filtered html) wysiwyg settings.
+core = 7.x
+package = ADFL Config
+dependencies[] = ckeditor
+features[ckeditor_profile][] = Advanced
+features[features_api][] = api:2
+features_exclude[dependencies][ckeditor] = ckeditor
+project path = profiles/adfl/modules/custom/custom_features

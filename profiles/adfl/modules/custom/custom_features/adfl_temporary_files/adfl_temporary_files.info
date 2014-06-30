@@ -1,0 +1,10 @@
+name = ADFL Temporary Files
+description = A feature to create the "Temporary Files" path.
+core = 7.x
+package = ADFL Config
+dependencies[] = ctools
+dependencies[] = strongarm
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
+features[variable][] = file_temporary_path
+project path = profiles/adfl/modules/custom/custom_features

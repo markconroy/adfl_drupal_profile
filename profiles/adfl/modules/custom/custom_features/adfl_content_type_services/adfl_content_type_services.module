@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Content Type - Services feature.
+ */
+
+include_once 'adfl_content_type_services.features.inc';
