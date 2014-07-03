@@ -10,6 +10,29 @@
 function adfl_image_styles_image_default_styles() {
   $styles = array();
 
+  // Exported image style: frontpage_slider.
+  $styles['frontpage_slider'] = array(
+    'name' => 'frontpage_slider',
+    'label' => 'Frontpage Slider',
+    'effects' => array(
+      1 => array(
+        'label' => 'Scale and Smart Crop',
+        'help' => 'Similar to "Scale And Crop", but preserves the portion of the image with the most entropy.',
+        'effect callback' => 'smartcrop_scale_effect',
+        'form callback' => 'image_scale_form',
+        'summary theme' => 'image_scale_summary',
+        'module' => 'smartcrop',
+        'name' => 'smartcrop_scale_and_crop',
+        'data' => array(
+          'width' => 1200,
+          'height' => 600,
+          'upscale' => 1,
+        ),
+        'weight' => 1,
+      ),
+    ),
+  );
+
   // Exported image style: gallery_cover.
   $styles['gallery_cover'] = array(
     'name' => 'gallery_cover',
