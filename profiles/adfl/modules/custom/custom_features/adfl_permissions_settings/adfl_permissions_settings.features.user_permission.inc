@@ -124,16 +124,6 @@ function adfl_permissions_settings_user_default_permissions() {
     'module' => 'system',
   );
 
-  // Exported permission: 'access toolbar'.
-  $permissions['access toolbar'] = array(
-    'name' => 'access toolbar',
-    'roles' => array(
-      'Staff User' => 'Staff User',
-      'administrator' => 'administrator',
-    ),
-    'module' => 'toolbar',
-  );
-
   // Exported permission: 'access user profiles'.
   $permissions['access user profiles'] = array(
     'name' => 'access user profiles',
@@ -389,15 +379,6 @@ function adfl_permissions_settings_user_default_permissions() {
     'module' => 'sharethis',
   );
 
-  // Exported permission: 'administer shortcuts'.
-  $permissions['administer shortcuts'] = array(
-    'name' => 'administer shortcuts',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'shortcut',
-  );
-
   // Exported permission: 'administer site configuration'.
   $permissions['administer site configuration'] = array(
     'name' => 'administer site configuration',
@@ -592,15 +573,6 @@ function adfl_permissions_settings_user_default_permissions() {
       'administrator' => 'administrator',
     ),
     'module' => 'ckeditor',
-  );
-
-  // Exported permission: 'customize shortcut links'.
-  $permissions['customize shortcut links'] = array(
-    'name' => 'customize shortcut links',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'shortcut',
   );
 
   // Exported permission: 'delete any image_gallery content'.
@@ -908,15 +880,6 @@ function adfl_permissions_settings_user_default_permissions() {
       'administrator' => 'administrator',
     ),
     'module' => 'user',
-  );
-
-  // Exported permission: 'switch shortcut sets'.
-  $permissions['switch shortcut sets'] = array(
-    'name' => 'switch shortcut sets',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'shortcut',
   );
 
   // Exported permission: 'switch users'.

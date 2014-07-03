@@ -15,13 +15,6 @@ dependencies[] = dblog
 dependencies[] = field_ui
 dependencies[] = file
 dependencies[] = rdf
-dependencies[] = shortcut
-dependencies[] = toolbar
-
-; Information added by Drupal.org packaging script on 2014-05-08
-version = "7.28"
-project = "drupal"
-datestamp = "1399522731"
 
 ; Adding Required Contrib modules
 dependencies[] = admin_menu
@@ -70,7 +63,6 @@ dependencies[] = adfl_field_bases
 dependencies[] = adfl_image_styles
 dependencies[] = adfl_honeypot_settings
 dependencies[] = adfl_sharethis_settings
-; dependencies[] = adfl_temporary_files
 dependencies[] = adfl_flexslider_settings
 dependencies[] = adfl_text_formats_filtered_html
 dependencies[] = adfl_text_formats_full_html

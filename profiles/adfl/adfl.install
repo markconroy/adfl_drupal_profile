@@ -68,7 +68,7 @@ function adfl_install() {
   $full_html_format = (object) $full_html_format;
   filter_format_save($full_html_format);
   // Enable some standard blocks.
-  $default_theme = variable_get('theme_default', 'bartik');
+  $default_theme = variable_get('theme_default', 'adflzen');
   $admin_theme = 'seven';
   // Enable correct themes
   theme_enable(array('zen', 'adflzen'));
@@ -87,7 +87,7 @@ function adfl_install() {
     array(
       'module' => 'user',
       'delta' => 'login',
-      'theme' => $default_theme,
+      'theme' => 'adflzen',
       'status' => 1,
       'weight' => 0,
       'region' => 'sidebar_first',
@@ -141,7 +141,7 @@ function adfl_install() {
   // Create a default role for site administrators, with all available permissions assigned.
   $admin_role = new stdClass();
   $admin_role->name = 'administrator';
-  $admin_role->weight = 3;
+  $admin_role->weight = 100;
   user_role_save($admin_role);
   user_role_grant_permissions($admin_role->rid, array_keys(module_invoke_all('permission')));
   // Set this as the administrator role.
